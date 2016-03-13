@@ -54,3 +54,11 @@ In the my_geonode folder run::
     $ python manage.py collectstatic
 
 
+##other
+
+The Django documentation recommends that to put the Python code within the Web server’s document root (in a place such as /var/www) because it risks the possibility that people may be able to view your code over the Web. However, a home directory such is usually not readable to other users so Apache may not be able to read from it. 
+
+An option is moving your .wsgi script to the /var/www/mysite/ folder. Then you can adjust the file /etc/apache2/sites-available/geonode.conf and change the following directive to:
+
+    WSGIScriptAlias / /var/www/mysite/wsgi.py
+
