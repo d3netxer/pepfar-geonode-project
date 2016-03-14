@@ -1,4 +1,4 @@
--{% extends "site_base.html" %}
+{% extends "site_base.html" %}
 {% load i18n %}
 {% load staticfiles %}
 {% load base_tags %}
@@ -16,8 +16,8 @@
   {% block hero %}
   <div class="jumbotron">
     <div class="container">
-      <h1><span id="jumbo-innovation">Innovation</span><span id="jumbo-lab">Lab</span> <span id="jumbo-geonode">GeoNode</span></h1>
-      <p>Open data to further your understanding of disaster risk</p>
+      <h1><span id="jumbo-innovation">Secondary</span><span id="jumbo-lab">Cities</span> <span id="jumbo-geonode">GeoNode</span></h1>
+      <p>Building partnerships to create geospatial data on secondary cities</p>
 
     </div>
   </div>
@@ -28,8 +28,8 @@
   <div class="container">
     <div class="row home-facets">
       <div>
-        <h1>Hazard datasets</h1>
-        <p>We maintain a curation of hazard datasets at the global and country level. Tools like ThinkHazard! use these datasets in the backend.</p>
+        <h1>Cities</h1>
+        <p>Discover innovative examples of open data and community empowerment</p>
     {% with facet_type='home' %}
      {% facets as facets %}
 
@@ -84,6 +84,8 @@
   </div>
 </div>
 
+{% comment %}
+
     <div class="post-disaster-box">
       <div class="container">
         <div class="row home-facets">
@@ -113,7 +115,7 @@
     </div>
   </div>
 
-
+{% endcomment %}
 </div>
 
   {% verbatim %}
@@ -124,6 +126,8 @@
   </div>
   {% endverbatim %}
   {% endblock %}
+
+
 
 {% endblock %}
 
