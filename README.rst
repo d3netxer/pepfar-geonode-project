@@ -22,7 +22,7 @@ copy the files in the repos template directory into the following directory: /et
 
 copy the files in the static folder into the /var/www/geonode/static directory   ex:
 
-```sudo cp -R ../../secondary-cities-geonode-project/project_name/static/* .```
+``sudo cp -R ../../secondary-cities-geonode-project/project_name/static/* .``
 
 Restart apache::
 
