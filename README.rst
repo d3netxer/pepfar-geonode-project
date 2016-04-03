@@ -16,7 +16,7 @@ Edit the file /etc/apache2/sites-available/geonode.conf:
 
 Change the "Directory" directive for your folder like the following example:
 
-    <Directory "/var/www/">
+    ''<Directory "/var/www/">''
 
 copy the files in the repos template directory into the following directory: /etc/geonode/templates/
 
