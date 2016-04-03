@@ -6,11 +6,9 @@ You should write some docs, it's good for the soul.
 Installation
 ------------
 
-1. Clone this repo
-
 Create a new template based on the geonode example project.::
     
-    $ django-admin.py startproject secondary_cities_geonode --template=https://github.com/GeoNode/geonode-project/archive/master.zip -epy,rst,yml
+    $ django-admin.py startproject secondary_cities_geonode --template=https://github.com/state-hiu/secondary-cities-geonode-project/archive/master.zip -epy,rst,yml
 
 .. note:: You should NOT use the name geonode for your project as it will conflict with the default geonode package name.
 
