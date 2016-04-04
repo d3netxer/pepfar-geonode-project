@@ -22,15 +22,15 @@ Restart apache::
 
     $ sudo service apache2 restart
     
-###Important directories:
+### Important directories:
 
 Base Geonode Django files:
 
-/usr/local/lib/python2.7/dist-packages/geonode
+``/usr/local/lib/python2.7/dist-packages/geonode``
 
 Apache Geonode configuration file:
 
-/etc/apache2/sites-available/geonode.conf
+``/etc/apache2/sites-available/geonode.conf``
     
 
 
