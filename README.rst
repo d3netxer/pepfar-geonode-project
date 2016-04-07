@@ -22,7 +22,7 @@ Restart apache::
 
     $ sudo service apache2 restart
     
-### Important directories:
+###Important directories:
 
 Base Geonode Django files:
 
