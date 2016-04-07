@@ -18,7 +18,7 @@ copy the files in the static folder into the /var/www/geonode/static directory  
 
 copy the files in the repo's template directory into the following directory: /etc/geonode/templates/
 
-Restart apache::
+Restart apache:
 
     ``$ sudo service apache2 restart``
     
