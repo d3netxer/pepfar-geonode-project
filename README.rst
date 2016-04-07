@@ -20,9 +20,9 @@ copy the files in the repo's template directory into the following directory: /e
 
 Restart apache::
 
-    $ sudo service apache2 restart
+    ``$ sudo service apache2 restart``
     
-###Important directories:
+### Important directories:
 
 Base Geonode Django files:
 
