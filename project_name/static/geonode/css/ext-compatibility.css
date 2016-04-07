@@ -1,7 +1,7 @@
 /* Fixes for compatibility issues between extjs and bootstrap */
 
 img {
-  max-height: 95px;
+  max-width: 95px;
 }
 
 img.thumbnail{
