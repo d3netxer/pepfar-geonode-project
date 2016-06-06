@@ -1,11 +1,7 @@
 /* Fixes for compatibility issues between extjs and bootstrap */
 
 img {
-  max-width: 95px;
-}
-
-img.thumbnail{
-  max-width: 220px;
+  max-width: none;
 }
 
 .x-panel table, .x-window table {

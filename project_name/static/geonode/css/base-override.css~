@@ -1,0 +1,50 @@
+#nav_menu > a {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 0.6;
+    padding-left: 0;
+}
+
+.footer {
+    background-color: #555555;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footer img {
+    margin-right: 10px;
+    max-height: 35px;
+    max-width: 110px;
+    vertical-align: middle;
+}
+
+body {
+    background: #fff none repeat scroll 0 0;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0) url("../../img/pepfar_geonode_banner.jpg") no-repeat scroll left bottom / cover ;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    color: black;
+    height: 300px;
+    padding: 40px;
+}
+
+.jumbotron .container {
+    background-color: rgb(245, 245, 245);
+    padding: 0px 10px 15px 10px;
+}
+
+.jumbotron a {
+    color: #2a6496;
+}
+
+.container > p {
+    font-family: sans-serif;
+    font-size: 17px;
+}
