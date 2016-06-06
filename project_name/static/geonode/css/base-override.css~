@@ -33,6 +33,7 @@ body {
     color: black;
     height: 300px;
     padding: 40px;
+    text-shadow: none;
 }
 
 .jumbotron .container {

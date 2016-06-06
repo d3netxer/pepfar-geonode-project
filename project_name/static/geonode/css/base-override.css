@@ -49,3 +49,10 @@ body {
     font-family: sans-serif;
     font-size: 17px;
 }
+
+/* http://stackoverflow.com/questions/16244821/how-to-stop-sticky-footer-from-covering-content */
+body {
+    margin-bottom: 100px;
+    min-height: 400px;
+    padding-top: 40px;
+}
